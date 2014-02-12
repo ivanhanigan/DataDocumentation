@@ -1,0 +1,91 @@
+\documentclass[a4paper]{report}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{soul}
+\usepackage{Sweave}
+\usepackage{lscape}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage[section]{placeins}
+\usepackage{pslatex}
+\usepackage{palatino}
+\usepackage{avant}
+\usepackage{verbatim}
+%% layout commands may be written here
+%% \newcounter{}
+\begin{document}
+
+\pagenumbering{arabic}
+
+
+
+\title{Reproducible Reports with R , TEX , \& Sweave}
+\author{Ivan C. Hanigan}
+\date{}
+\maketitle
+
+\begin{verbatim}
+For the header with palatino see http://cran.r-project.org/web/packages/lazyWeave/lazyWeave.pdf
+
+For the intro to Sexpr see http://tex.stackexchange.com/a/22392
+\end{verbatim}
+
+One and One is 2.
+
+Lm returns -0.0310967825786384.
+
+\begin{Schunk}
+\begin{Sinput}
+> sayhi <- function(k=2) {for(i in 1:k) cat("hi",i,"| ") }
+> sayhi()
+\end{Sinput}
+\begin{Soutput}
+hi 1 | hi 2 | 
+\end{Soutput}
+\end{Schunk}
+
+But with Sexpr, {\tt sayhi()} prints <>.
+
+Note that {\tt sayhi()} returns nothing; that's why Sexpr doesn't work.
+
+\begin{Schunk}
+\begin{Sinput}
+> a <- sayhi()
+\end{Sinput}
+\begin{Soutput}
+hi 1 | hi 2 | 
+\end{Soutput}
+\begin{Sinput}
+> cat(a)
+\end{Sinput}
+\end{Schunk}
+
+\begin{Schunk}
+\begin{Sinput}
+> savehi <- function(k=2) {
++   out <- c()
++   for(i in 1:k) {
++     out <- paste(out, "hi", i,"| ")
++   }
++   out
++ }
+> hi <- savehi()
+> cat(hi)
+\end{Sinput}
+\begin{Soutput}
+ hi 1 |  hi 2 | 
+\end{Soutput}
+\end{Schunk}
+
+And with Sexpr, {\tt savehi()} prints < hi 1 |  hi 2 | >.
+
+
+% \documentclass{article}
+% \begin{document}
+\input{sexpr-concordance}
+% \SweaveOpts{concordance=TRUE}
+%% lazy.file.start(docClass = "report", packages = c("pslatex",      "palatino", "avant"), title = "Report Name", author = "Your Name")  
+
+\end{document}
