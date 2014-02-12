@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.12)  12 FEB 2014 13:47
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.12)  12 FEB 2014 14:05
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -390,38 +390,39 @@ LaTeX Info: Redefining \pageref on input line 18.
 \@outlinefile=\write4
 \openout4 = `sexpr.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 28
+(./sexpr-concordance.tex)
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 29
 .
-(/usr/share/texmf/tex/latex/psnfss/ot1ptmcm.fd
+ (/usr/share/texmf/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 28
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 29
 .
 
 (/usr/share/texmf/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 28
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 29
 .
 
 (/usr/share/texmf/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 
 (/usr/share/texmf/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 28.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 29.
  (./sexpr.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -434,36 +435,53 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 \openout5 = `sexpr.toc'.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 37.
 
-Overfull \hbox (7.00111pt too wide) in paragraph at lines 35--37
-[]\T1/ppl/m/n/10 (-20) For the header with palatino see []$\T1/pcr/m/n/10 http 
-: / / cran . r-[]project . org / web / packages /
+Overfull \hbox (56.26804pt too wide) in paragraph at lines 40--41
+\T1/ppl/m/n/10 (-20) the ac-tual R code. For fig-ures use fig=TRUE,echo=FALSE,p
+ng=TRUE,pdf=FALSE,eps=FALSE
  []
 
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \end{Sinput}
-                  [1
+l.54     Min      1Q  Median      3Q     Max
+                                             [1
 
-] (./sexpr-concordance.tex) [2] (./sexpr.aux) ) 
+]
+<sexpr-003.pdf, id=64, 433.62pt x 433.62pt>
+File: sexpr-003.pdf Graphic file (type pdf)
+ <use sexpr-003.pdf> [2] [3 <./sexpr-003.pdf>]
+Overfull \hbox (120.62775pt too wide) in paragraph at lines 122--122
+[]\T1/pcr/m/n/10 Lm returns \\ Sexpr{x <- rnorm(100,1,1);y <- rnorm(100,0,1);su
+mmary(lm(y ~ x))$coeff[1,1];}. 
+ []
+
+[4
+
+] [5] (./sexpr.aux) ) 
 Here is how much of TeX's memory you used:
- 6016 strings out of 256216
- 87800 string characters out of 1917072
- 171605 words of memory out of 1500000
- 9175 multiletter control sequences out of 10000+200000
- 35620 words of font info for 80 fonts, out of 1200000 for 2000
+ 6069 strings out of 256216
+ 88336 string characters out of 1917072
+ 172605 words of memory out of 1500000
+ 9195 multiletter control sequences out of 10000+200000
+ 44319 words of font info for 100 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 35i,7n,36p,263b,475s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvip
-s/base/8r.enc}</usr/share/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
-texmf/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on sexpr.pdf (3 pages, 69480 bytes).
+ 35i,10n,36p,421b,474s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/
+texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/tex
+mf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf/fonts/type1/urw/courier
+/ucrro8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/
+texmf/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on sexpr.pdf (6 pages, 107007 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 131072)
- 21029 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 131072)
+ 22610 words of extra memory for PDF output out of 24883 (max. 10000000)
 
