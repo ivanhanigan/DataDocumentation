@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.12)  12 FEB 2014 13:25
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.9.12)  12 FEB 2014 13:47
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -420,32 +420,50 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (139.49768pt too wide) in paragraph at lines 30--30
-[]\T1/pcr/m/n/10 For the header with palatino see http://cran.r-project.org/web
-/packages/lazyWeave/lazyWeave.pdf[] 
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 28.
+ (./sexpr.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+\tf@toc=\write5
+\openout5 = `sexpr.toc'.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
+
+Overfull \hbox (7.00111pt too wide) in paragraph at lines 35--37
+[]\T1/ppl/m/n/10 (-20) For the header with palatino see []$\T1/pcr/m/n/10 http 
+: / / cran . r-[]project . org / web / packages /
  []
 
-(./sexpr-concordance.tex)pdfTeX warning (ext4): destination with the same ident
-ifier (name{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \end{document}
-                    [1] (./sexpr.aux) ) 
+l.71 \end{Sinput}
+                  [1
+
+] (./sexpr-concordance.tex) [2] (./sexpr.aux) ) 
 Here is how much of TeX's memory you used:
- 5969 strings out of 256216
- 87209 string characters out of 1917072
- 170605 words of memory out of 1500000
- 9144 multiletter control sequences out of 10000+200000
- 22523 words of font info for 52 fonts, out of 1200000 for 2000
+ 6016 strings out of 256216
+ 87800 string characters out of 1917072
+ 171605 words of memory out of 1500000
+ 9175 multiletter control sequences out of 10000+200000
+ 35620 words of font info for 80 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 35i,7n,35p,201b,363s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/base/8
-r.enc}</usr/share/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf/fo
-nts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/up
-lr8a.pfb>
-Output written on sexpr.pdf (2 pages, 48070 bytes).
+ 35i,7n,36p,263b,475s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
+texmf/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf/fonts/type1/urw/pal
+atino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on sexpr.pdf (3 pages, 69480 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 131072)
- 14357 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 60 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 131072)
+ 21029 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -23,19 +23,47 @@
 
 \title{Reproducible Reports with R , TEX , \& Sweave}
 \author{Ivan C. Hanigan}
-\date{}
+\date{\today}
 \maketitle
+\tableofcontents
 
+\section*{Introduction}
+This is a brief intro and template to Reproducible Reports with R , TEX , \& Sweave. For a great overview of why you might want to do this see: 
+Scott, T. A. (n.d.). Reproducible Research with R , TEX , \& Sweave: A common ( flawed ) approach for generating statistical reports. Retrieved from \url{http://biostat.mc.vanderbilt.edu/wiki/Main/SweaveLatex}
+
+
+For the header with palatino see 
+\url{http://cran.r-project.org/web/packages/lazyWeave/lazyWeave.pdf}
+
+For eg:
 \begin{verbatim}
-For the header with palatino see http://cran.r-project.org/web/packages/lazyWeave/lazyWeave.pdf
-
-For the intro to Sexpr see http://tex.stackexchange.com/a/22392
+install.packages("lazyWeave")
+require(lazyWeave)
+lazy.file.start(docClass="report", 
+packages=c("pslatex", "palatino", "avant"), 
+title="Report Name", author="Your Name")
 \end{verbatim}
 
+For the intro to including R calculations in the paragraphs (ie using 'Sexpr') see:
+\url{http://tex.stackexchange.com/a/22392}.
+
+\section{Inline R output}
+Say we want to calculate a number and report it we can use this code:
+
+\begin{verbatim}
 One and One is 2.
+\end{verbatim}
+Which will look like this: One and One is 2.
 
-Lm returns -0.0310967825786384.
+We might want to write multiple lines of R code:
+\begin{verbatim}
+Lm returns -0.322671000012202.
+\end{verbatim}
 
+Which will look like this: Lm returns -0.104693497041258.
+
+\section{Inline R output with functions}
+Including Functions can be tricky:
 \begin{Schunk}
 \begin{Sinput}
 > sayhi <- function(k=2) {for(i in 1:k) cat("hi",i,"| ") }

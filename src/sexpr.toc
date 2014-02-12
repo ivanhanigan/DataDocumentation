@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {0.1}Inline R output}{1}{section.0.1}
+\contentsline {section}{\numberline {0.2}Inline R output with functions}{2}{section.0.2}
