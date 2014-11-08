@@ -1,0 +1,10 @@
+#+TITLE:Data Documentation 
+#+AUTHOR: Ivan Hanigan
+#+email: ivan.hanigan@anu.edu.au
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [a4paper]
+#+LATEX: \tableofcontents
+-----
+
+* Introduction
+This is a collection of works intended to provide a theoretical framework for documenting data, and some tools and procedures developed to facilitate this.
